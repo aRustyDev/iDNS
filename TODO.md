@@ -91,3 +91,4 @@
     - URLHaus
     - 1Hosts
     - d3Hostd
+- Share Links from browser -> whitelist/blacklist/check/suspicious
