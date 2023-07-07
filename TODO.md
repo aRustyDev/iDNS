@@ -1,0 +1,93 @@
+# TODO
+- Dynamic Blocking
+  - https://github.com/evilsocket/ditto
+  - https://github.com/UndeadSec/EvilURL
+  - https://github.com/UndeadSec/checkURL
+- Static Blocking
+  - External Lists
+  - Internal Lists
+    - Files
+    - Local Editor
+  - Whitelist
+  - Blacklist
+- DNS Logs
+  - NX Log (NonExistent Zones; can detect malware)
+  - Searching Function
+  - Export Logs
+  - DNSCrypt-Proxy Logs
+  - General Logs
+  - Blacklist Logs
+  - Whitelist Logs
+  - Logging Levels
+- Strict Mode (Override iOS fallback behavior)
+- TCP or UDP only (only send DNS Req over TCP or UDP)
+- DNS-Over-HTTP/2 (DoH)
+- DNSCrypt
+  - Ephemeral Keys (Recreate key for each (n) requests)
+- Disable TLS Session Tickets
+- DNS Cloaking (Return predefined address for specific DNS Names)
+- Enable Forwarding (Route queries for specific domains to a dedicated set of servers)
+- Block IPv6
+- Wifi Exceptions
+- Resolver Usage Rules
+  - Version
+    - IPv4
+    - IPv6
+  - Protocol
+    - DNSCrypt
+    - DNS-Over-HTTP/2 (DoH)
+  - Required Properties
+    - Should provide DNSSEC
+    - Should NOT Log
+    - Should NOT Filter
+- DNS Caching
+- Connect on Demand
+- Config Editor (in App)
+- App level authentication
+  - Passcode
+  - Face Match
+  - Finger Match
+  - 2FA
+    - yubikey
+    - OTP
+    - SMS
+    - Email
+- Site Exceptions list
+- Browser Extensions
+  - Safari
+  - FireFox
+  - Opera
+  - Chrome
+- Status Bar Icon
+- TTL Setting
+- Fallback Servers
+- Blocking Modes
+  - Default : respond w/ zero IP addr 0.0.0.0 / ;; or the IP addr specified in rule when blocked by /etc/hosts style rule
+  - Refused : respond w/ REFUSED
+  - Nxdomain : respond w/ NXDOMAIN
+  - Unspecified IP : respond w/ zero IP addr 0.0.0.0 / ;;
+  - Custom IP : Respond w/ a manually set IP Addr
+- App Refresh Interval (Background)
+- Tunnel mode
+  - Full Tunnel : Incompatible w/ other VPN apps
+  - Full Tunnel w/o VPN Icon : Incompatible w/ other VPN apps
+  - Split Tunnel : works with Personal VPN apps
+- Lists
+  - Blokada
+    - OISD
+    - Energized
+    - Steven Black
+    - Goodbye Ads
+    - AdAway
+    - Phishing Army
+    - DuckDuckGo Tracker Radar
+    - Blacklist
+    - Developer Dan's Hosts
+    - The Block  List Project
+    - Spam404
+    - hBlock
+    - Combined Privacy Block Lists
+    - Dan Pollock's Hosts
+    - URLHaus
+    - 1Hosts
+    - d3Hostd
