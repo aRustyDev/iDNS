@@ -1,8 +1,10 @@
 # TODO
 - Dynamic Blocking
-  - https://github.com/evilsocket/ditto
-  - https://github.com/UndeadSec/EvilURL
-  - https://github.com/UndeadSec/checkURL
+  - Homograph Detection/Protection
+    - https://github.com/evilsocket/ditto
+    - https://github.com/UndeadSec/EvilURL
+    - https://github.com/UndeadSec/checkURL
+    - https://github.com/trailofbits/deceptiveidn
 - Static Blocking
   - External Lists
   - Internal Lists
